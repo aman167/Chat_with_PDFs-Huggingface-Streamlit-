@@ -5,21 +5,23 @@ A Retrieval-Augmented Generation (RAG) app for chatting with content from upload
 
 This project is a Retrieval-Augmented Generation (RAG) application that allows users to upload and interact with multiple PDFs by asking natural language questions. The application leverages modern AI techniques for document retrieval and conversational AI to provide contextually accurate answers based on PDF content.
 
-Features
-PDF Upload: Users can upload multiple PDFs.
-Conversational Query: Ask natural language questions about the uploaded content.
-Embedding Models: Uses local word embeddings for efficient text representation.
-Vector Store: FAISS is used for storing and retrieving vectors.
-LLM Backend: Powered by Hugging Face's free API (FLAN-T5-XXL) for question-answering.
-Streamlit UI: Clean and simple user interface using Streamlit.
-Langchain: Utilized for creating conversation chains and managing dialogue flow.
-Tech Stack
-Frontend: Streamlit
-Backend: Local embedding models, Hugging Face API (FLAN-T5-XXL)
-Vector Store: FAISS
-Conversation Management: Langchain
-Programming Language: Python
-Installation
+#### Features
+- **PDF Upload**: Users can upload multiple PDFs.
+- **Conversational Query**: Ask natural language questions about the uploaded content.
+- **Embedding Models**: Uses local word embeddings for efficient text representation.
+- **Vector Store**: FAISS is used for storing and retrieving vectors.
+- **LLM Backend**: Powered by Hugging Face's free API (FLAN-T5-XXL) for question-answering.
+- **Streamlit UI**: Clean and simple user interface using Streamlit.
+- **Langchain**: Utilized for creating conversation chains and managing dialogue flow.
+
+
+#### Tech Stack
+- **Frontend**: Streamlit
+- **Backend**: Local embedding models, Hugging Face API (FLAN-T5-XXL)
+- **Vector Store**: FAISS
+- **Conversation Management**: Langchain
+- **Programming Language**: Python
+
 
 
 bash
